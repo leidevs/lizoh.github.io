@@ -1,1 +1,63 @@
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat';
+    background: rgb(255, 154, 158);
+    background: radial-gradient(circle, rgba(255, 154, 158, 1) 0%, rgba(254, 207, 239, 1) 100%);
+}
+
+.card {
+    border-radius: 20px;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    text-align: center;
+
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-themed {
+    background: -webkit-linear-gradient(rgba(255, 154, 158, 1) 0%, rgba(254, 207, 239, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card>p {
+    font-size: 20px;
+}
+
+span {
+    background: radial-gradient(circle, rgba(255, 154, 158, 1) 0%, rgba(254, 207, 239, 1) 100%);
+}
+
+i {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    cursor: default;
+}
+
+#typed {
+    font-size: 20px;
+
+}
+
+.card>h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
